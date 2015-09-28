@@ -50,6 +50,6 @@ run_analysis <- function(){
         
         tidydata <- aggregate(. ~subject_id + activity_name, select_data, mean)
         tidydata <- tidydata[order(tidydata$subject_id, tidydata$activity_name),]
-        tidaydata
+        tidydata
         
 }
